@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="icom" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Roundel_of_Bangladesh_%E2%80%93_Army_Aviation.svg/1024px-Roundel_of_Bangladesh_%E2%80%93_Army_Aviation.svg.png">
+    <style>
+        body {
+            background-color: rgb(200, 255, 255);
+            max-width: 1500px;
+            margin: auto;
+        }
+
+        table {
+            background-color: white;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(250, 250, 0);
+        }
+
+        h3 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <table width="100%">
+        <tr style="background-color: green;">
+            <td width="8%" align="center"><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Roundel_of_Bangladesh_%E2%80%93_Army_Aviation.svg/1024px-Roundel_of_Bangladesh_%E2%80%93_Army_Aviation.svg.png"
+                    alt="logo" height="50"></td>
+            <td>
+                <h2>বাংলাদেশ সেনাবাহিনী নিয়গের আবেদন ফর্ম</h2>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <table border="0" width="90%">
+            <tr>
+                <td align="center">
+                    <h3>আবেদনকারীর তথ্য</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="নাম">নাম</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="বাংলা" type="text" id="নাম" size="30" required>
+                            </td>
+                            <td width="15%"><label for="Name">Name</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="English" type="text" id="Name" size="30" required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="পিতার নাম">পিতার নাম</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="বাংলা" type="text" id="পিতার নাম" size="30" required>
+                            </td>
+                            <td width="15%"><label for="Father Name">Father Name</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="English" type="text" id="Father Name" size="30" required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="মাতার নাম">মাতার নাম</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="বাংলা" type="text" id="মাতার নাম" size="30" required>
+                            </td>
+                            <td width="15%"><label for="Mother Name">Mother Name</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="English" type="text" id="Mother Name" size="30" required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="জন্ম তারিখ">জন্ম তারিখ</label>
+                            </td>
+                            <td width="35%">
+                                <input type="date" id="জন্ম তারিখ" required>
+                            </td>
+                            <td width="15%"><label for="পিতা ও মাতার কততম সন্তান">পিতা ও মাতার কততম সন্তান</label>
+                            </td>
+                            <td width="35%">
+                                <input type="number" min="1" max="100" id="পিতা ও মাতার কততম সন্তান" required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="জাতীয় পরিচয়পত্র নম্বর">জাতীয় পরিচয়পত্র নম্বর</label>
+                            </td>
+                            <td width="35%">
+                                <input type="number" id="জাতীয় পরিচয়পত্র নম্বর" required>
+                            </td>
+                            <td width="15%">
+                                <label>লিঙ্গ</label>
+                            </td>
+                            <td width="35%">
+                                <input type="radio" name="লিঙ্গ" id="পুরুষ">
+                                <label for="পুরুষ">পুরুষ</label>
+                                <input type="radio" name="লিঙ্গ" id="মহিলা">
+                                <label for="মহিলা">মহিলা</label>
+                                <input type="radio" name="লিঙ্গ" id="তৃতীয়  লিঙ্গ">
+                                <label for="তৃতীয়  লিঙ্গ">তৃতীয় লিঙ্গ</label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%"><label for="ধর্ম">ধর্ম</label>
+                            </td>
+                            <td width="35%">
+                                <select name="ধর্ম" id="ধর্ম">
+                                    <option value="">ইসলাম</option>
+                                    <option value="">হিন্দু</option>
+                                    <option value="">বৌদ্ধ</option>
+                                    <option value="">খ্রিস্টান</option>
+                                </select>
+                            </td>
+                            <td width="15%">
+                                <label>রক্তের গ্রুপ</label>
+                            </td>
+                            <td width="35%">
+                                <select name="রক্তের গ্রুপ" id="রক্তের গ্রুপ">
+                                    <option value="">A+</option>
+                                    <option value="">A-</option>
+                                    <option value="">B+</option>
+                                    <option value="">B-</option>
+                                    <option value="">O+</option>
+                                    <option value="">O-</option>
+                                    <option value="">AB+</option>
+                                    <option value="">AB-</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="মোবাইল নাম্বার">মোবাইল নাম্বার</label>
+                            </td>
+                            <td width="35%">
+                                <input type="tel" id="মোবাইল নাম্বার" size="30" required>
+                            </td>
+                            <td width="15%"><label for="ইমেইল আইডি">ইমেইল আইডি</label>
+                            </td>
+                            <td width="35%">
+                                <input type="email" id="ইমেইল আইডি" size="30">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%"><label for="বর্তমান ঠিকানা">বর্তমান ঠিকানা</label>
+                            </td>
+                            <td width="35%">
+                                <textarea id="বর্তমান ঠিকানা" cols="27" rows="5" required></textarea>
+                            </td>
+
+                            <td width="15%"><label for="স্থায়ী ঠিকানা">স্থায়ী ঠিকানা</label>
+                            </td>
+                            <td width="35%">
+                                <textarea id="স্থায়ী ঠিকানা" cols="27" rows="5" required></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="SSC রেজাল্ট">SSC রেজাল্ট</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="GPA" type="number" max="5" min="1" id="SSC রেজাল্ট" required>
+                            </td>
+                            <td width="15%"><label for="HSC রেজাল্ট">HSC রেজাল্ট</label>
+                            </td>
+                            <td width="35%">
+                                <input placeholder="GPA" type="number" max="5" min="1" id="HSC রেজাল্ট" required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label>SSC ও HSC সনদের সংযুক্তি</label>
+                            </td>
+                            <td width="35%">
+                                <input type="file" multiple required>
+                            </td>
+                            <td width="15%">
+                                <label>NID ও জন্ম সনদের সংযুক্তি</label>
+                            </td>
+                            <td width="35%">
+                                <input type="file" multiple required>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="10">
+                        <tr>
+                            <td width="15%">
+                                <label for="ইউজার আইডি">ইউজার আইডি</label>
+                            </td>
+                            <td width="35%">
+                                <input type="text" id="ইউজার আইডি" size="30" required>
+                            </td>
+                            <td width="15%"><label for="পাসওয়ার্ড">পাসওয়ার্ড</label>
+                            </td>
+                            <td width="35%">
+                                <input type="password" id="পাসওয়ার্ড" size="30" min="5" max="30">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table cellpadding="10">
+                        <tr>
+                            <td align="right"><input type="reset"></td>
+                            <td align="left"><input type="submit"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
